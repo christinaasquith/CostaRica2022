@@ -27,24 +27,14 @@ body {
   border: 3px dotted fuchsia;
   font-size: 18px;  
 }
-#main-img {
-    border-radius: 50%;
-    max-height: 150px;
-    margin-bottom: 2em;
-    border: 3px solid pink;
-}
-#quiz {
-    color: fuchsia;
-    font-size: 18px;
 
-}
-
-#vista-img {
+#horse-img {
     border-radius: 50%;
     max-height: 150px;
     margin-bottom: 1em;
     border: 3px solid pink; 
 }
+
  #surf3 {
  /*center button. display as a block element*/
  display: block;
@@ -58,12 +48,14 @@ body {
  border: 3px dotted fuchsia;
  font-size: 18px;
  }
- #reptile-img {
-    border-radius: 20%;
-    max-height: 200px;
+
+
+ #vista-img {
+    border-radius: 50%;
+    max-height: 150px;
     margin-bottom: 1em;
-    border: 3px solid pink;
- }
+    border: 3px solid pink; 
+}
 
     #surf4 {
         /*center button. display as a block element*/
@@ -78,3 +70,46 @@ body {
         border: 3px dotted fuchsia;
         font-size: 18px;
         }
+
+
+        #reptile-img {
+            border-radius: 20%;
+            max-height: 200px;
+            margin-bottom: 1em;
+            border: 3px solid pink;
+         }
+
+        #surf5 {
+            /*center button. display as a block element*/
+            display: block;
+            margin: 0 auto;
+            /*add spacing within the content of the button*/
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom:15px;
+            background-color: white;
+            color: fuchsia;
+            border: 3px dotted fuchsia;
+            font-size: 18px;
+            }
+
+        #main-img {
+                border-radius: 50%;
+                max-height: 150px;
+                margin-bottom: 2em;
+                border: 3px solid pink;
+            }
+
+            #surf6 { 
+                /*center button. display as a block element*/
+            display: block;
+            margin: 0 auto;
+            /*add spacing within the content of the button*/
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom:15px;
+            background-color: white;
+            color: fuchsia;
+            border: 3px dotted fuchsia;
+            font-size: 18px;
+            }
