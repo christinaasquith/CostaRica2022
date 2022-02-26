@@ -109,14 +109,14 @@ function resetClickCount(){
      }
  } 
  function sendDeploy1(){
-     alert("Step 1: now you deploy your code.");
+     alert("Step 1: Now you deploy your code by going to vercel.");
  }
  function sendDeploy2(){
-     alert("Step 2: tbd");
+     alert("Step 2: Clicking Deploy");
  
  }
  function sendDeploy3(){
-     alert("Step 3: tbd) ");
+     alert("Step 3: Link/copy to GitHub and configure!");
  }
  function resetClickCount(){
      clickCount = 0;
