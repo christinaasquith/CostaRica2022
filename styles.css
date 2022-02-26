@@ -1,4 +1,6 @@
 body {
+    padding-top: 6%;
+    padding-bottom:6%;
     text-align: center;
     color: black;
     background-color: pink;
@@ -7,6 +9,7 @@ body {
 .header {
     background-color: white;
     color: fuchsia;
+    font-size: 25px;
 }
 #surf-img {
     border-radius: 50%;
@@ -96,7 +99,7 @@ body {
         #main-img {
                 border-radius: 50%;
                 max-height: 150px;
-                margin-bottom: 2em;
+                margin-bottom: 1em;
                 border: 3px solid pink;
             }
 
@@ -105,9 +108,9 @@ body {
             display: block;
             margin: 0 auto;
             /*add spacing within the content of the button*/
-            padding: 10px;
-            margin-top: 10px;
-            margin-bottom:15px;
+            padding: 5px;
+            margin-top: 5px;
+            margin-bottom:20px;
             background-color: white;
             color: fuchsia;
             border: 3px dotted fuchsia;

@@ -32,19 +32,19 @@ function resetClickCount(){
 } 
 
 //my second button code is here//
-var clickCount =0;
+var clickCountSection1 =0;
 var surf3Button =document.getElementById("surf3");
 surf3Button.addEventListener("click", sendRepo);function sendRepo(){
-    clickCount += 1;
-if (clickCount == 1){
+    clickCountSection1 += 1;
+if (clickCountSection1 == 1){
     sendRepo1();
 }
-if (clickCount == 2){
+if (clickCountSection1 == 2){
     sendRepo2();
     }
-    if (clickCount == 3){
+    if (clickCountSection1 == 3){
     sendRepo3();
-    resetClickCount();
+    resetClickCountSection1();
     }
 } 
 function sendRepo1(){
@@ -54,56 +54,56 @@ function sendRepo2(){
     alert("Step 2:Make a name but no template. Add a readme. Now you`ve created a repo but not linked it to you code.");
 }
 function sendRepo3(){
-    alert("Step 3:Then either Add a file and drag your files into the github OR go to terminal (but currently terminal not working for me!) ");
+    alert("Step 3:Then click: Add a file and drag your files from your code folder into the github");
 }
-function resetClickCount(){
-    clickCount = 0;
+function resetClickCountSection1(){
+    clickCountSection1 = 0;
 }
 
 
 //my 3rd button code is here//
-var clickCount =0;
+var clickCountSection2 =0;
 var surf4Button =document.getElementById("surf4");
 surf4Button.addEventListener("click", sendPush);function sendPush(){
-    clickCount += 1;
-if (clickCount == 1){
+    clickCountSection2 += 1;
+if (clickCountSection2 == 1){
     sendPush1();
 }
-if (clickCount == 2){
+if (clickCountSection2 == 2){
     sendPush2();
     }
-    if (clickCount == 3){
+    if (clickCountSection2 == 3){
     sendPush3();
     resetClickCount();
     }
 } 
 function sendPush1(){
-    alert("Step 1: Your code editor should have a commit button. Or in terminal, CD into you folder.");
+    alert("Step 1: Easiest way is to click on the commit button in your code editor. But if you want to use terminal, CD into you folder.");
 }
 function sendPush2(){
-    alert("Step 2: Git add .");
+    alert("Step 2: type: Git add .");
 
 }
 function sendPush3(){
-    alert("Step 3: git commit -m your message then git push) ");
+    alert("Step 3: type: git commit -m your message; type: git push)");
 }
-function resetClickCount(){
-    clickCount = 0;
+function resetClickCountSection2(){
+    clickCountSection2 = 0;
 }
 
 
  //my 4th button is here//
- var clickCount =0;
+ var clickCountSection3 =0;
  var surf5Button =document.getElementById("surf5");
  surf5Button.addEventListener("click", sendDeploy);function sendDeploy(){
-     clickCount += 1;
- if (clickCount == 1){
+     clickCountSection3 += 1;
+ if (clickCountSection3 == 1){
      sendDeploy1();
  }
- if (clickCount == 2){
+ if (clickCountSection3 == 2){
      sendDeploy2();
      }
-     if (clickCount == 3){
+     if (clickCountSection3 == 3){
      sendDeploy3();
      resetClickCount();
      }
@@ -118,19 +118,19 @@ function resetClickCount(){
  function sendDeploy3(){
      alert("Step 3: Link/copy to GitHub and configure!");
  }
- function resetClickCount(){
-     clickCount = 0;
+ function resetClickCountSection3(){
+     clickCountSection3 = 0;
  }
 
  //my 4th button is here//
- var clickCount =0;
+ var clickCountSection4 =0;
  var surf6Button =document.getElementById("surf6");
  surf6Button.addEventListener("click", sendGoodbye);function sendGoodbye(){
-     clickCount += 1;
- if (clickCount == 1){
+     clickCountSection4 += 1;
+ if (clickCountSection4 == 1){
      sendGoodbye1();
  }
-     resetClickCount();
+     resetClickCountSection4();
      }
  function sendGoodbye1(){
      alert("Keep on Coding!");
